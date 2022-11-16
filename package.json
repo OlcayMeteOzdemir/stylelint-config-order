@@ -3,7 +3,10 @@
 	"version": "1.0.0",
 	"description": "Custom StyleLint settings for CSS property sort order as an extensible shared config.",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"prettier-lint": "prettier --check **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}",
+		"prettier-fix": "prettier --write **/*.{html,?(s)css,js,jsx,json,cjs,mjs,y?(a)ml}"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/OlcayMeteOzdemir/stylelint-config-order.git"
@@ -20,6 +23,9 @@
 	"author": "Olcay Mete Ozdemir",
 	"license": "MIT",
 	"homepage": "https://github.com/OlcayMeteOzdemir/stylelint-config-order#readme",
-	"devDependencies": {},
+	"devDependencies": {
+		"@meteozdemir/prettier-config-core": "^1.0.0",
+		"prettier": "^2.7.1"
+	},
 	"peerDependencies": {}
 }
