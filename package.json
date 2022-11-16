@@ -1,0 +1,25 @@
+{
+	"name": "@meteozdemir/stylelint-config-order",
+	"version": "1.0.0",
+	"description": "Custom StyleLint settings for CSS property sort order as an extensible shared config.",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OlcayMeteOzdemir/stylelint-config-order.git"
+	},
+	"keywords": [
+		"css",
+		"scss",
+		"property",
+		"sort",
+		"order",
+		"stylelint",
+		"stylelint-config"
+	],
+	"author": "Olcay Mete Ozdemir",
+	"license": "MIT",
+	"homepage": "https://github.com/OlcayMeteOzdemir/stylelint-config-order#readme",
+	"devDependencies": {},
+	"peerDependencies": {}
+}
