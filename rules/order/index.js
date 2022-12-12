@@ -1,5 +1,6 @@
 module.exports = {
 	plugins: ['stylelint-order'],
+	customSyntax: 'postcss-scss',
 	rules: {
 		'order/order': [
 			'dollar-variables',
