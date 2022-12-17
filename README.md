@@ -25,31 +25,31 @@ npm i -D @meteozdemir/stylelint-config-order stylelint stylelint-order
 
 ## Usage
 
-Simply create a `.stylelintrc.js` file in the root of project and copy code below.
+Simply create a `.stylelintrc` file in the root of project and copy code below.
 
-```javascript
-module.exports = {
-    extends: ['@meteozdemir/stylelint-config-order'],
-    rules: {},
-};
+```json
+{
+    "extends": ["@meteozdemir/stylelint-config-order"],
+    "rules": {}
+}
 ```
 
 ## Rule Override
 
-Add any rule you want to override to rules object in `.stylelintrc.js` file.
+Add any rule you want to override to rules object in `.stylelintrc` file.
 
-```javascript
-module.exports = {
-    extends: ['@meteozdemir/stylelint-config-order'],
-    rules: {
+```json
+{
+    "extends": ["@meteozdemir/stylelint-config-order"],
+    "rules": {
         // ...
-        'order/order': ['at-rules', 'dollar-variables', 'custom-properties'],
-        'order/properties-order': [
+        "order/order": ["at-rules", "dollar-variables", "custom-properties"],
+        "order/properties-order": [
             {
-                groupName: 'Grid Layout',
-                properties: ['grid', 'grid-row', 'grid-column'],
-            },
-        ],
-    },
-};
+                "groupName": "Grid Layout",
+                "properties": ["grid", "grid-row", "grid-column"]
+            }
+        ]
+    }
+}
 ```
