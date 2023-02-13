@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.3 - February 13, 2023
+
+  - Updated: stylelint 14.16.1 to 15.1.0
+  - Updated: stylelint-order 6.0.1 to 6.0.2
+
 ## v1.0.2 - January 9, 2023
 
   - Updated: postcss 8.4.20 to 8.4.21
